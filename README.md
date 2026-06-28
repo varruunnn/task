@@ -89,20 +89,6 @@ The app runs at `http://localhost:3000`.
 | priority | String | `low`, `medium`, `high` |
 | dueDate | Date | ISO date |
 
-## Deployment
-
-### Backend (Render / Railway)
-
-1. Push your code to GitHub
-2. Create a new Web Service pointed at the `backend/` folder
-3. Set environment variables: `MONGO_URI`, `PORT`, `NODE_ENV=production`
-4. Build command: `npm install`, Start command: `npm start`
-
-### Frontend (Vercel / Netlify)
-
-1. Create a new project pointed at the `frontend/` folder
-2. Set `REACT_APP_API_URL` to your deployed backend URL
-3. Build command: `npm run build`, output: `build/`
 
 ## Features
 
